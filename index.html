@@ -12,28 +12,58 @@
     <!-----main container-->
     <div class="main_container">
         <aside class="main_aside">
-            <img src="./img/photo.jpg" alt="my photo">
+            <div class="photo-overlay">
+                <img class="photo-img" src="./img/photo.jpg" width="370" height="354" alt="my photo">
+                <ul class="social">
+                    <li class="social__item">
+                        <a href="https://www.facebook.com/andrew.zhivotovskij" class="social-overlay__item-link" target="_blank">
+                            <svg class="social__item-icon">
+                                <use href="img/sprite.svg#facebook"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="social__item">
+                        <a href="https://www.instagram.com/zhyvotovskyi/" class="social-overlay__item-link" target="_blank">
+                            <svg class="social__item-icon">
+                                <use href="img/sprite.svg#instagram"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="social__item">
+                        <a href="https://twitter.com/ZhivotAndrew" class="social-overlay__item-link" target="_blank">
+                            <svg class="social__item-icon">
+                                <use href="img/sprite.svg#twitter"></use>
+                            </svg>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
             <!-----Contacts-->
             <div class="aside_item">
                 <div class="contacts_text">
-                    <h3>
+                    <h3 class="aside_title">
                         Contacts
                     </h3>
-                    <p class="contacts_description">
-                        <span class="contacts_type">C:</span>
-                        <a href="tel:+380951138598">+38 095 113 85 98</a>
-                    </p>
-                    <p class="contacts_description">
-                        <span class="contacts_type">E:</span>
-                        <a href="mailto:zhyvotovskyiandrii@gmail.com">
-                            <span class="decoration_text">zhyvotovskyiandrii@gmail.com</span>
-                        </a>
-                    </p>
+                    <ul class="contacts_list">
+                        <li class="contacts_item">
+                            <svg class="contacts_icon">
+                                <use href="img/sprite.svg#phone"></use>
+                            </svg>
+                            <a href="tel:+380951138598" class="contacts_link">+38 095 113 85 98</a>
+                        </li>
+                        <li class="contacts_item">
+                            <svg class="contacts_icon">
+                                <use href="img/sprite.svg#mail"></use>
+                            </svg>
+                            <a href="mailto:zhyvotovskyiandrii@gmail.com" class="contacts_link">zhyvotovskyiandrii@gmail.com</a>
+                        </li>
+                    </ul>
                 </div>
 
                 <!----tech skills-->
                 <div class="skills">
-                    <h3>Tech Skills</h3>
+                    <h3 class="aside_title">Tech Skills</h3>
                     <ul>
                         <li>
                             <span class="skills_name">HTML5</span>
@@ -61,7 +91,7 @@
 
                 <!---Soft Skills-->
                 <div class="skills">
-                    <h3>Soft Skills</h3>
+                    <h3 class="aside_title">Soft Skills</h3>
                     <ul>
                         <li>
                             <span class="skills_name">Scrum</span>

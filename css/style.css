@@ -256,6 +256,7 @@ input[type="radio"].visually-hidden {
 .br-setting {
     display: block;
     font-weight: 700;
+    margin-top: 20px;
 }
 
 .main_inform {
@@ -263,6 +264,12 @@ input[type="radio"].visually-hidden {
 }
 
 .abbout_me {}
+
+.text-decoration-bold {
+    color: var(--color-second);
+    font-weight: 700;
+    font-style: italic;
+}
 
 .abbout_me h2 {
     font-size: 28px;
@@ -285,6 +292,7 @@ input[type="radio"].visually-hidden {
 
 .project {
     margin-bottom: 54px;
+    display: none;
 }
 
 .project h3 {
@@ -319,7 +327,9 @@ input[type="radio"].visually-hidden {
 
 /******/
 
-.experience {}
+.experience {
+    display: none;
+}
 
 .experience h3 {
     font-size: 22px;

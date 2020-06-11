@@ -252,11 +252,17 @@ input[type="radio"].visually-hidden {
 
 
 /***main_inform***/
+.about-me__description-title {
+    margin-bottom: 10px;
+}
 
 .br-setting {
     display: block;
     font-weight: 700;
-    margin-top: 20px;
+}
+
+.br-setting+.br-setting {
+    margin-top: 5px;
 }
 
 .main_inform {
